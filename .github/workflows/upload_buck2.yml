@@ -3,7 +3,7 @@ name: Build, upload, and tag `buck2`
 on:
     push:
         branches:
-            - test-wf
+            - vr/test-wf
 
 jobs:
     get_prelude_hash:
